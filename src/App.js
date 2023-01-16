@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Recording from "./components/recording/Recording";
 import Budget from "./components/budget/Budget";
 import Tracking from "./components/tracking/Tracking";
+import CheckList from "./components/check-list/CheckList";
 import { Routes, Route } from "react-router-dom";
 import greenGalaxy from "./assets/green-galaxy.jpg";
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/recording" element={<Recording />} />
           <Route path="/budget" element={<Budget />} />
           <Route path="/tracking" element={<Tracking />} />
+          <Route path="/checklist" element={<CheckList />} />
         </Routes>
       </div>
     </div>

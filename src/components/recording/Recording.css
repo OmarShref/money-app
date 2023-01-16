@@ -1,8 +1,118 @@
 .recordings {
   flex: 1;
   position: relative;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.recordings .outputs {
+  width: 570px;
+  flex: 1;
+  backdrop-filter: var(--light-blur);
+  border-bottom: var(--white-border);
+}
+.recordings .inputs {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: var(--light-blur);
+  border-top: var(--white-border);
+  margin-top: 20px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.recordings .inputs .row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.recordings .inputs .row .icons i {
+  font-size: 16px;
+}
+.recordings .inputs .row .icons i.fa-sack-xmark {
+  color: var(--light-red);
+}
+.recordings .inputs .row .icons i.fa-money-bill-trend-up {
+  color: var(--light-green);
+}
+.recordings .inputs .row .icons i.fa-calendar-days {
+  color: white;
+}
+.recordings .inputs .row .icons i.fa-book {
+  color: var(--yellow);
+}
+.recordings .inputs .row input {
+  flex: 1;
+  background-color: transparent;
+  color: white;
+  padding: 5px 5px;
+  border: var(--white-border);
+  border-radius: 20px;
+}
+.recordings .inputs .row input:focus-visible {
+  outline: none;
+}
+.recordings .inputs .row select {
+  flex: 1;
+  background-color: transparent;
+  color: white;
+  padding: 4px 5px;
+  border: var(--white-border);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.recordings .inputs .row select:focus-visible {
+  outline: none;
+}
+.recordings .inputs .row select option {
+  background-color: var(--teal);
+}
+.recordings .inputs .row button {
+  background-color: transparent;
+  border: none;
+}
+.recordings .inputs .row button i {
+  font-size: 16px;
+  color: var(--light-blue);
+  cursor: pointer;
+}
+
+/* media quiries */
+
+@media screen and (max-width: 480px) {
+  .recordings {
+    width: 100%;
+  }
+  .recordings .outputs {
+    width: 100%;
+  }
+  .recordings .inputs {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .recordings .outputs {
+    width: 450px;
+  }
+  .recordings .inputs {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 1201px) {
 }
