@@ -3,6 +3,9 @@ import "./Recording.css";
 const Recording = () => {
   return (
     <div className="recordings">
+      <div className="paper-plane-animation">
+        <i className="fa-regular fa-paper-plane"></i>
+      </div>
       <div className="outputs"></div>
       <div className="inputs">
         <div className="row">

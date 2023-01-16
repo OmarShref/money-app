@@ -7,6 +7,41 @@
   justify-content: space-between;
   align-items: center;
 }
+.recordings .paper-plane-animation {
+  position: absolute;
+  color: var(--light-blue);
+  font-size: 20px;
+  z-index: 1;
+  animation: paper-plane-animation 3s ease-in-out 1s infinite;
+  bottom: 150px;
+  right: 50%;
+  transform: translateX(50%) rotateY(0deg) rotateZ(20deg);
+  visibility: hidden;
+}
+@keyframes paper-plane-animation {
+  0% {
+    visibility: visible;
+    bottom: 150px;
+    right: 50%;
+    transform: rotateY(0deg) rotateZ(20deg);
+  }
+  40% {
+    transform: rotateY(0deg) rotateZ(20deg);
+  }
+
+  50% {
+    right: 10%;
+  }
+
+  60% {
+    transform: rotateY(180deg) rotateZ(20deg);
+  }
+  100% {
+    bottom: 400px;
+    right: 50%;
+    transform: rotateY(180deg) rotateZ(20deg);
+  }
+}
 .recordings .outputs {
   width: 570px;
   flex: 1;
