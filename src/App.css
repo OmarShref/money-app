@@ -6,7 +6,6 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Comfortaa";
-  color: white;
 }
 :root {
   --light-blur: blur(7px);
@@ -19,6 +18,7 @@
   --teal-border: 2px solid var(--teal);
 }
 .main-app {
+  color: white;
   position: relative;
   width: 100vw;
   height: 100vh;
