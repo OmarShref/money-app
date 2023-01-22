@@ -22,7 +22,24 @@ const Recording = () => {
       <div id="paper-plane-animation" className="paper-plane-animation">
         <i className="fa-regular fa-paper-plane"></i>
       </div>
-      <div className="outputs"></div>
+      {/* top section  */}
+
+      <div className="outputs">
+        <div className="recording-list">
+          <div className="list-item">0</div>
+          <div className="list-item">1</div>
+          <div className="list-item">2</div>
+          <div className="list-item">3</div>
+          <div className="list-item">4</div>
+          <div className="list-item">555555555555</div>
+          <div className="list-item">5</div>
+          <div className="list-item">6</div>
+        </div>
+        <div className="summary"></div>
+      </div>
+
+      {/* bottom section  */}
+
       <div className="inputs">
         <div className="row">
           <div className="icons">

@@ -7,6 +7,7 @@
   align-items: center;
   backdrop-filter: var(--light-blur);
   border-right: var(--white-border);
+  order: 0;
 }
 
 .main-navbar .links ul li {
@@ -20,6 +21,7 @@
   color: white;
   transition: 0.3s ease-out;
   white-space: nowrap;
+  user-select: none;
 }
 
 .main-navbar .links ul li a:hover {
@@ -35,7 +37,7 @@
     width: 100%;
     border-top: var(--white-border);
     border-right: none;
-    order: 1;
+    order: 2;
   }
   .main-navbar .links {
     width: 100%;
@@ -59,7 +61,7 @@
     width: 100%;
     border-top: var(--white-border);
     border-right: none;
-    order: 1;
+    order: 2;
   }
   .main-navbar .links {
     width: 100%;
