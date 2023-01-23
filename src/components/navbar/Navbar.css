@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  backdrop-filter: var(--light-blur);
+  backdrop-filter: var(--blur);
   border-right: var(--white-border);
   order: 0;
 }

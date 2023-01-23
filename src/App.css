@@ -8,12 +8,18 @@
   font-family: "Comfortaa";
 }
 :root {
-  --light-blur: blur(7px);
-  --teal: #22735c;
-  --light-blue: #059bc6;
-  --yellow: #cde318;
-  --light-green: #44a96c;
-  --light-red: #ff3030;
+  --blur: blur(7px);
+  --light-blur: blur(1px);
+  /*--------------------------------------------------------*/
+  --teal: #22735c; /* rgb(34, 115, 92) */
+  --light-blue: #059bc6; /* rgb(5, 155, 198) */
+  --yellow: #cde318; /* rgb(205, 227, 24) */
+  --transparent-yellow: rgb(205, 227, 24, 0.7);
+  --light-green: #44a96c; /* rgb(68, 169, 108) */
+  --transparent-light-green: rgb(68, 169, 108, 0.7);
+  --light-red: #ff3030; /* rgb(255, 48, 48) */
+  --transparent-light-red: rgb(255, 48, 48, 0.7);
+  /*--------------------------------------------------------*/
   --white-border: 1px solid rgba(250, 250, 250, 0.2);
   --teal-border: 2px solid var(--teal);
 }

@@ -26,12 +26,33 @@ const Recording = () => {
 
       <div className="outputs">
         <div className="recording-list">
-          <div className="list-item">0</div>
-          <div className="list-item">1</div>
-          <div className="list-item">2</div>
+          <div className="list-item income">
+            <div className="money-date">
+              <p>500</p>
+              <p>22/6/2023</p>
+            </div>
+            <div className="type">
+              <p>Food and Drink and whatever</p>
+            </div>
+          </div>
+          <div className="list-item expenses">
+            <div className="money-date">
+              <p>500</p>
+              <p>22/6/2023</p>
+            </div>
+            <div className="type">
+              <p>Food and Drink and whatever</p>
+            </div>
+          </div>
+          <div className="list-item diary">
+            <p>22/6/2023</p>
+            <p>
+              Today i went to get some food from supermaket but unfourtnatly i
+              didn't found what i want
+            </p>
+          </div>
           <div className="list-item">3</div>
           <div className="list-item">4</div>
-          <div className="list-item">555555555555</div>
           <div className="list-item">5</div>
           <div className="list-item">6</div>
         </div>
