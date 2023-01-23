@@ -7,16 +7,16 @@ const NavBar = () => {
       <div className="links">
         <ul>
           <li>
-            <Link to="/recording">Recording</Link>
+            <Link to="/money-app/recording">Recording</Link>
           </li>
           <li>
-            <Link to="/budget">Budget</Link>
+            <Link to="/money-app/budget">Budget</Link>
           </li>
           <li>
-            <Link to="/tracking">Tracking</Link>
+            <Link to="/money-app/tracking">Tracking</Link>
           </li>
           <li>
-            <Link to="/checklist">Check List</Link>
+            <Link to="/money-app/checklist">Check List</Link>
           </li>
         </ul>
       </div>

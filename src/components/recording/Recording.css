@@ -121,8 +121,9 @@
 .recordings .outputs .recording-list .list-item .type {
   width: 100%;
 }
-.recordings .outputs .recording-list .list-item > p {
+.recordings .outputs .recording-list .list-item > p:first-child {
   width: 100%;
+  text-align: end;
 }
 
 /* --------------------------------------------------------------------------------- */
